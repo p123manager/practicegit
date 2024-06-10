@@ -11,5 +11,7 @@ public class SharedClass {
 	WebDriver driver = new ChromeDriver();
 	//lunch site
 	driver.get("http://www.facebook.com");
+	//close site
+	driver.close();
 	}
 }
