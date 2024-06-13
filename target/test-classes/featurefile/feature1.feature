@@ -4,3 +4,4 @@ Scenario: verify title
  When   enter "abdul kalam" into search box
  And hit enter key
  Then page title should contain "abdul kalam"
+ And observe the result
